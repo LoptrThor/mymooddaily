@@ -3,15 +3,6 @@
 
   <!-- 用户 openid -->
   <view class="userinfo">
-    <!-- <button 
-      open-type="getUserInfo" 
-      bindgetuserinfo="onGetUserInfo"
-      class="userinfo-avatar"
-      style="background-image: url({{avatarUrl}})"
-    ></button>
-    <view>
-      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
-    </view> -->
     <image wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="avatar" src='{{avatarUrl}}'></image> 
       <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" style='font-size:40rpx;'>点击登录 </button>
       <block wx:else>
