@@ -1,0 +1,8 @@
+
+<view class='datashow'>{{year}}/{{month}}/{{isToday}}</view>
+<view class='text'>今天心情如何？</view>
+<block wx:for='{{imgLIst}}' wx:key='img'>
+    <view class='test' bindtap='chooseThis' data-index='{{index}}'>
+        <image src='{{imgHoverIndex == index ?item.hoverUrl:item.url}}'></image>
+    </view>
+</block>

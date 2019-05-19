@@ -1,0 +1,47 @@
+ {
+  "pages": [
+    "pages/mymood/mymood",
+    "pages/daily/daily",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color":"#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list":[
+      {
+        "pagePath":"pages/mymood/mymood",
+        "text":"心情",
+        "iconPath":"images/bianjixinqing.png",
+        "selectIconPath":"images/bianjixinqing-2.png"
+      },
+      {
+        "pagePath": "pages/daily/daily",
+        "text": "日历",
+        "iconPath": "images/rili.png",
+        "selectIconPath": "images/rili-2.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/zhuye.png",
+        "selectIconPath": "images/zhuye-2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
