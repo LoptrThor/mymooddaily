@@ -64,8 +64,15 @@ page {
   line-height: 52px;
   font-size: 34rpx;
   color: #007aff;
+  margin-left: 25rpx;
 }
-
+.uploader-text1{
+  width: 100%;
+  line-height: 52px;
+  font-size: 34rpx;
+  color: #007aff;
+  text-align: left;
+}
 .uploader-container {
   width: 100%;
   height: 400rpx;
